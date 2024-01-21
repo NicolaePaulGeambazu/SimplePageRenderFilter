@@ -5,7 +5,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: 'module',
-    project: './tsconfig.json', // Point to your tsconfig.json file
+    project: './tsconfig.json',
   },
   rules: {
     '@typescript-eslint/no-unused-vars': ['error'],
